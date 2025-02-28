@@ -1,0 +1,80 @@
+Pestaña de único con las opciones del juego 
+
+body{
+    background-image: url('https://i.ytimg.com/vi/pJJtj2AdFY4/maxresdefault.jpg');
+    background-size: cover;
+}
+.de_inicio{
+    color: antiquewhite;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding-top: 230px;
+    padding-left: 45px;
+}
+.option{
+    color: rgb(105, 101, 101);
+    font-size: 9px;
+    padding-left: 45px;
+    margin-top:20px;
+    
+}
+h1{
+    margin: 0px;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color:white; 
+}
+a:hover{
+    color:rgb(219, 219, 18);
+}
+h1:hover{
+    color:rgb(219, 219, 18);
+}
+.exit{
+    padding-left: 45px;
+    font-size: 5px;
+    color: rgb(232, 222, 209);
+    padding-top: 130px;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bandera{
+    float: right;
+    margin-right: 70px;
+    width: 25px;
+    height: 20px;
+    margin-bottom:20px;
+}
+Html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>THE FOREST</title>
+    <link rel="stylesheet" href="disenho.css">
+</head>
+<body>
+    <div class="de_inicio">
+        <H1><a href="sigle.html">SINGLE  PLAYER</a></H1>
+        <H1><a href="multiplayer.html">MULTIPLAYER</a></H1>
+        <H1><a href="UNIRSE.HTML">UNIRSE A UNA SALA</a></H1>
+    </div>
+
+    <div class="option">
+        <h1><a href="menu.html"> OPTIONS</a>   </h1>
+    </div>
+    <div class="exit">
+        <h1>EXIT TO WINDOWS</h1>
+        <img src="https://i.pinimg.com/736x/42/b5/b3/42b5b31ac857635409dd82b5da083754.jpg" class="bandera">
+    </div>
+    <script>
+        let usuario = localStorage.getItem('usuario');
+        console.log('NOMBRE DEL JUGADOR:',usuario);
+        let EDAD = localStorage.getItem('EDAD');
+        console.log('EDAD DEL JUGADOR', EDAD);
+    </script>
+</body>
+</html>
