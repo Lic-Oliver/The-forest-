@@ -1,0 +1,26 @@
+Multiplayer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video de Fondo</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+     <a href="inicio.html"> <img src="https://cdn.pixabay.com/photo/2023/02/07/00/42/return-7772977__340.png" class="retroceder"></a>
+     <h1>ID DE SALA:345634</h1>
+     <video id="videoIntro" class="video-background" autoplay loop>
+        <source src="fondo.mp4" type="video/mp4">
+     </video>
+</body>
+</html>
+body{
+   background-image: url('https://i.pinimg.com/originals/ea/42/30/ea4230d9a9a991863d51f000f2ff40b9.jpg');
+   background-size: cover;
+}
+.sala{
+    text-align: center;
+    color:white;
+    padding-top: 180px;
+}
