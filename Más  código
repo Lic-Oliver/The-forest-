@@ -1,0 +1,26 @@
+Código de la primera pestaña 
+body{
+    background-image: url('https://cdn.wallpapersafari.com/57/31/A7fvRU.jpg');
+    background-size: cover;
+
+    color: rgb(197, 193, 208);
+    text-align:center;
+    margin-top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: 200px;
+}
+input{
+    display: block;
+    margin:  20px auto;
+    border-color: rgb(106, 106, 161);
+}
+h1:hover{
+    color: rgba(255, 0, 0, 0.848);
+    text-spacing-trim: 4px;
+}
+input:hover{
+    font-size: 20px;
+}
+.boton{
+    padding-top: 5px;
+}
