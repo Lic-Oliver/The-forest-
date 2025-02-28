@@ -1,0 +1,60 @@
+Single playera terminando el día 13 de feb
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FOREST</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+     <a href="inicio.html"> <img src="https://cdn.pixabay.com/photo/2023/02/07/00/42/return-7772977__340.png" class="retroceder"></a>
+     <video id="videoIntro" class="video-background" autoplay loop>
+        <source src="fondo.mp4" type="video/mp4">
+     </video>
+</body>
+</html>
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.video-background {
+    position: absolute;
+    size:cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.retroceder{
+    float: left;
+    border-radius: 30px;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+}
+.retroceder:hover{
+    width: 30px;
+    height: 30px;
+}
+H1{
+    color:white;
+    float: right;
+    margin-top: 0px;
+    font-size: 12px;
+}
